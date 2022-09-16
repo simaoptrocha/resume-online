@@ -1,5 +1,8 @@
+
+
 const line = document.querySelector(".timeline-innerline");
 const timeline_events = document.querySelectorAll("ul li.timeline-li");
+
 
 let observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -13,7 +16,7 @@ let observer = new IntersectionObserver((entries) => {
   });},
   { threshold: 1, rootMargin: "0px 0px -50px 0px" });
 
+
 let target=document.querySelector(".timeline ul");
 observer.observe(target)
-console.log(observer)
 

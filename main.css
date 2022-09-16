@@ -44,6 +44,7 @@ span,
 li {
     color: var(--secondaryTextColor);
     font-size: 1em;
+    text-align: justify;
 }
 
 a {
@@ -270,9 +271,7 @@ ul>li>span {
     border-color: none;
 }
 
-.card--techstack :hover {
- 
-}
+.card--techstack :hover {}
 
 .card--work-history {
     /* border-left: 1px solid var(--mainBorderColor); */
@@ -332,8 +331,8 @@ ul>li>span {
     }
 
     #profile-pic {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
 
     #wisecare-logo {
@@ -341,6 +340,84 @@ ul>li>span {
         height: 100px;
     }
 
+    #container--header {
+        background-color: var(--headerBgColor-light);
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        max-width: 800px;
+        margin: 0 auto;
+       padding: 2rem;
+
+    }
+
+    #container--about-me {
+        background-color: var(--socialLinksBgColor-light);
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    #container--tech-stack {
+        background-color: var(--mainBgColor);
+        border-radius: 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    #container--skills {
+        background-color: var(--mainBgColor);
+        border-radius: 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    #container--education {
+        background-color: var(--mainBgColor);
+        border-radius: 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    #container--projects {
+        background-color: var(--mainBgColor);
+        border-radius: 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    #container--archievements {
+        background-color: var(--mainBgColor);
+        border-radius: 0.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    #bio {
+        text-align: center;
+        font-weight: 200;
+        color: white;
+        margin: 0;
+    }
 
     .card--work-history {
         border-left: none;
