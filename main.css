@@ -354,9 +354,7 @@ ul>li>span {
         border-radius: 0rem 0rem 0.5rem 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
 
     #container--tech-stack {
@@ -364,10 +362,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding: 1rem;
         margin-top: 1rem;
 
     }
@@ -377,7 +372,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 1rem;
 
     }
@@ -387,7 +382,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 1rem;
 
     }
@@ -397,7 +392,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 1rem;
 
     }
@@ -407,7 +402,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 1rem;
 
     }
@@ -418,10 +413,18 @@ ul>li>span {
         color: white;
         margin: 0;
     }
+    #qualifications--list {
+        list-style: none;
+        padding: 0;
+    }
 
     .card--work-history {
         border-left: none;
         padding-left: 0;
+    }
+
+    .archievements-section {
+       padding: 1rem;
     }
 
 }
