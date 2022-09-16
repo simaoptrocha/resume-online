@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
-:root{
-   
-        --mainTextColor-light:#000;
-        --secondaryTextColor-light:rgb(51 51 51);
-        --mainLinkColor-light:#0da2b8;
-        --mainBorderColor-light:rgb(218, 218, 218);
-        --mainBgColor-light:rgb(249, 250,251);
-    
-        --mainTextColor-dark:#fff;
-        --secondaryTextColor-dark:#adb0b1;
-        --mainLinkColor-dark:rgb(30, 190,214);
-        --mainBorderColor-dark:#2b3031;
-        --mainBgColor-dark:#131415;
-    
-        --mainTextColor:var(--mainTextColor-light);
-        --secondaryTextColor:var(--secondaryTextColor-light);
-        --mainLinkColor:var(--mainLinkColor-light);
-        --mainBorderColor:var(--mainBorderColor-light);
-        --mainBgColor:var(--mainBgColor-light);
+:root {
+
+    --mainTextColor-light: #000;
+    --secondaryTextColor-light: rgb(51 51 51);
+    --mainLinkColor-light: #0da2b8;
+    --mainBorderColor-light: rgb(218, 218, 218);
+    --mainBgColor-light: rgb(255, 255, 255);
+    --bodyBgColor-light: rgb(214, 214, 214);
+    --headerBgColor-light: #2e6061;
+    --socialLinksBgColor-light: #ffffff;
+
+    --mainTextColor-dark: #fff;
+    --secondaryTextColor-dark: #adb0b1;
+    --mainLinkColor-dark: rgb(30, 190, 214);
+    --mainBorderColor-dark: #2b3031;
+    --mainBgColor-dark: #131415;
+
+    --mainTextColor: var(--mainTextColor-light);
+    --secondaryTextColor: var(--secondaryTextColor-light);
+    --mainLinkColor: var(--mainLinkColor-light);
+    --mainBorderColor: var(--mainBorderColor-light);
+    --mainBgColor: var(--mainBgColor-light);
+    --bodyBgColor: var(--bodyBgColor-light)
 }
 
-*{
+* {
     font-family: 'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
@@ -29,165 +33,317 @@
 
 }
 
-body{
-    background-color: var(--mainBgColor); 
-    align-items: center;           
+body {
+    border-radius: 0.5rem;
+    background-color: var(--bodyBgColor);
+    align-items: center;
 }
 
-p, span, li{
+p,
+span,
+li {
     color: var(--secondaryTextColor);
     font-size: 1em;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--mainLinkColor);
     font-weight: 500;
 }
 
-li{
+li {
     line-height: 1.9em;
 }
 
-#container--main{
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 1em;
+h2 {
+    color: #2e6061;
 }
 
-.section--page{
+ul {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+ul>li>span {
+    margin-right: 1rem;
+}
+
+#container--header {
+    background-color: var(--headerBgColor-light);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+
+}
+
+#container--about-me {
+    background-color: var(--socialLinksBgColor-light);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+
+#container--tech-stack {
+    background-color: var(--mainBgColor);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+
+}
+
+#container--skills {
+    background-color: var(--mainBgColor);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+
+}
+
+#container--education {
+    background-color: var(--mainBgColor);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+
+}
+
+#container--projects {
+    background-color: var(--mainBgColor);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+
+}
+
+#container--archievements {
+    background-color: var(--mainBgColor);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+
+}
+
+.section--page {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-#wrapper--hero{ 
+
+#wrapper--hero {
+
     display: flex;
-    align-items: right;
-    gap: 4em;
+    align-items: center;
+    justify-content: left;
+    gap: 2em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
 }
 
-#bio, a{
-    font-weight: 300;
+#bio {
+    font-weight: 200;
+    color: white;
+    margin: 0;
 }
 
-#user-name{
-    font-size: 48px;
-    line-height: 1em;
+#user-name {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
 }
 
-#profile-pic{
-    width: 250px;
-    height: 250px;
+#profile-pic {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-#email{
-    color: var(--mainTextColor);
+#email {
+    color: white;
 }
 
-#socials--list{
+#socials--list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     column-gap: 1em;
     flex-wrap: wrap;
 }
 
-#socials--list a{
+#socials--list a {
     font-weight: 300;
     color: var(--secondaryTextColor);
     font-size: 0.9em;
     transition: 0.3s;
 }
 
-#socials--list a:hover{
+#socials--list span {
+    margin-right: 1rem;
+}
+
+
+#socials--list a:hover {
     font-weight: 100;
     color: var(--mainLinkColor);
     font-size: 0.9em;
 }
 
-#qualifications--list{
+#qualifications--list {
     list-style: none;
 }
 
 
-#wrapper--techstack__items{
+#wrapper--techstack__items {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    font-size: 0.9em;   
+    font-size: 0.9em;
 }
 
-#wisecare-logo{
-    max-width: 200px;
+#wrapper--design-stack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
 }
 
-#ventasel-logo{
-    max-width: 200px;
+#wisecare-logo {
+    max-width: 20%;
+    max-height: 20%;
 }
-.card--techstack{
+
+#ventasel-logo {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+.fa-solid {
+    color: #2e6061;
+}
+
+.fa-brands {
+    color: #2e6061;
+}
+
+
+.card--techstack {
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
+    background-color: white;
+    border-color: none;
 }
 
-.card--work-history{
-    border-left: 1px solid var(--mainBorderColor);
+.card--techstack :hover {
+ 
+}
+
+.card--work-history {
+    /* border-left: 1px solid var(--mainBorderColor); */
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
 }
 
-.line-break{
+.card--work-header {
+    margin-top: 30px;
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+
+.line-break {
     background-color: var(--mainBorderColor);
     height: 1px;
 }
 
-.card--project{
+.card--project {
     padding-top: 1em;
     padding-bottom: 1em;
     border-top: 1px solid var(--mainBorderColor);
 }
 
-.card--project a{
+.card--project a {
     color: var(--mainTextColor);
 
     transition: 0.3s;
 }
 
-.card--project a:hover{
-    color: rgb(30, 190,214);
+.card--project a:hover {
+    color: rgb(30, 190, 214);
 
 }
 
-@media(max-width:600px){
+.archievements-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
-    .section--page{
+@media(max-width:600px) {
+
+    .section--page {
         padding-top: 1em;
         padding-bottom: 1em;
     }
 
-    #wrapper--hero{
+    #wrapper--hero {
         gap: 1em;
         flex-direction: column;
         align-items: center;
     }
 
-    #profile-pic{
-        width: 200px;
-        height: 200px;
+    #profile-pic {
+        width: 100px;
+        height: 100px;
     }
 
-    #wisecare-logo{
+    #wisecare-logo {
         max-width: 100px;
         height: 100px;
     }
 
 
-    .card--work-history{
+    .card--work-history {
         border-left: none;
         padding-left: 0;
     }
-    
+
 }

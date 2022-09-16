@@ -1,164 +1,242 @@
 <!DOCTYPE html>
 <html>
-    <head>  
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Simao Rocha</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./main.css" rel="stylesheet" type="text/css" media="screen"/>
-    </head>
-    <body>
-        <div id="container--main">
 
-            <section id="wrapper--hero" class="section--page">
-                <img id="profile-pic" src="./assets/images/avatar.JPEG">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simao Rocha</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./main.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/assets/styles/timeline.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/assets/styles/bar.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="/timeline-scroll.js" defer></script>
+    <script src="/ui.js" defer></script>
+</head>
 
-                <div>
-                    <h1 id="user-name">Simao Rocha</h1>
-                    <p id="bio">Junior React Developer</p>
-                    <p id="email">👉 simaoptrocha@gmail.com</p>
-                </div>  
-            </section>
+<body>
 
-            <section class="section--page">
+    <div id="container--header">
+        <section id="wrapper--hero">
+            <img id="profile-pic" src="./assets/images/avatar.JPEG">
+            <div>
+                <h2 id="user-name" style='color:#ffffff'>Simao Rocha</h2>
+                <p id="bio">Junior Web Developer</p>
+                <!-- <p id="email">simaoptrocha@gmail.com</p> -->
+            </div>
+        </section>
+    </div>
 
-                <div id="socials--list">
-                    <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
-                    <a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a>
-                    <a href="https://www.linkedin.com/in/dennis-ivanov/" target="_blank">Linkedin</a>
-                    <a href="https://github.com/divanov11" target="_blank">Github</a>
-                    <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
-                </div>
-            </section>
+    <div id="container--about-me">
+        <section class="section--page">
 
-            <section class="section--page">
-                <h2>Skills & Qualifications</h2>
-                <ul id="qualifications--list">
-                    <li>✔️ Experience with front & backend development</li>
-                    <li>✔️ Knowledge in API & database design.</li>
-                    <li>✔️ UI and website desig </li>
-                    <li>✔️ Client communication</li>
+            <div id="socials--list">
+                <a href="https://github.com/" target="_blank"><span><i class="fa-brands fa-github"></i></span>Github</a>
+                <a href="./assets/resume.pdf" target="_blank"><span><i class="fa-brands fa-linkedin"></i></span>Linked
+                    In</a>
+                <a href="./assets/resume.pdf" target="_blank"><span><i class="fa-solid fa-envelope"></i></span>Email</a>
+            </div>
+        </section>
+
+        <h2>About Me</h2>
+        <div class="line-break"></div>
+        <section class="section--page">
+
+            <p>
+                Passionate about design and web development. As a junior developer, my goal is to grow as a team player
+                and improve
+                my programming skills, providing a clean and maintainable code.
+                I can describe myself as open-minded and balanced person.</p>
+        </section>
+    </div>
+
+    <div id="container--tech-stack">
+        <h2>Tech stack</h2>
+        <div class="line-break"></div>
+        <section class="section--page">
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack"><span>React Js, Redux, Material UI </span></div>
+                <div class="card--techstack"><span>JQuery, CSS, HTML</span></div>
+                <div class="card--techstack"><span>JavaScript, TypeScript</span></div>
+                <div class="card--techstack"><span>C#,Java </span></div>
+                <div class="card--techstack"><span>Express, Node Js, Firebase</span></div>
+                <div class="card--techstack"><span>Firebase</span></div>
+                <div class="card--techstack"><span>MongoDB </span></div>
+                <div class="card--techstack"><span>Git </span></div>
+
+            </div>
+        </section>
+
+        <caption>Design tools</caption>
+
+        <section class="section--page">
+
+            <div id="wrapper--design-stack__items">
+                <div class="card--techstack"><span> Adobe Photoshop </span></div>
+                <div class="card--techstack"><span> Adobe Illustrator </span></div>
+                <div class="card--techstack"><span> Adobe inDesign </span></div>
+                <div class="card--techstack"><span> Adobe Lightroom </span></div>
+                <div class="card--techstack"><span> GIMP </span></div>
+                <div class="card--techstack"><span> Inkscape </span></div>
+            </div>
+        </section>
+    </div>
+
+
+    <div id="container--skills">
+        <h2> Skills & Know-how</h2>
+        <div class="line-break"></div>
+        <section class="section--page">
+            <ul id="qualifications--list">
+                <li><span><i class="fa-solid fa-rocket"></i></span> Logic Driven </li>
+                <li><span><i class="fa-solid fa-bullseye"></i></span> Critical Thinker </li>
+                <li><span><i class="fa-solid fa-lightbulb"></i></span> Higly Creative </li>
+                <li><span><i class="fa-solid fa-puzzle-piece"></i></span> Problem solver</li>
+                <li><span><i class="fa-solid fa-users"></i></span> Team worker </li>
+                <li><span><i class="fa-solid fa-heart"></i></span> Relationship Builder</li>
+                <br>
+                <li><span><i class="fa-solid fa-check"></i></span> React application development; </li>
+                <li><span><i class="fa-solid fa-check"></i></span> Building application interface using
+                    Material-UI/Bootstrap;</li>
+                <li><span><i class="fa-solid fa-check"></i></span> Development of a server using Node.js and
+                    Express;</li>
+                <li><span><i class="fa-solid fa-check"></i></span> Full-stack development using the MERN stack;
+                </li>
+                <li><span><i class="fa-solid fa-check"></i></span> Manipulating documents in MongoDB ;</li>
+
+            </ul>
+        </section>
+    </div>
+
+    <div id="container--education">
+        <h2> Eductation </h2>
+        <section class="section--page timeline">
+            <div class="timeline-line">
+                <span class="timeline-innerline"></span>
+            </div>
+
+            <ul class="timeline-ul">
+                <li class="timeline-li">
+                    <i class="timeline-point fa-solid fa-building-columns"></i>
+                    <span class="date">2012</span>
+                    <p class="timeline-p">Universidade do Minho</p>
+                    <span class="job-desription">Telecommunication and Informatics Engineer
+                    </span>
+                    <!-- <p class="timeline-p-description">Desription here</p> -->
+                </li>
+                <li class="timeline-li">
+                    <i class="timeline-point fa-solid fa-building-columns"></i>
+                    <span class="date">2017</span>
+                    <p class="timeline-p">Politecnico Dí Milano</p>
+                    <span class="job-desription">Erasmus Programme Milan, Italy</span>
+                </li>
+                <li class="timeline-li">
+                    <i class="timeline-point fa-solid fa-briefcase"></i>
+                    <span class="date">2018</span>
+                    <p class="timeline-p">Codeam Software</p>
+                    <span class="job-desription">Developer <br> Co-Founder</span>
+                </li>
+                <li class="timeline-li">
+                    <i class="timeline-point fa-solid fa-briefcase"></i>
+                    <span class="date">2019</span>
+                    <p class="timeline-p">Ventasel</p>
+                    <span class="job-desription">IT Specialist</span>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+
+    <div id="container--projects">
+        <h2>Work & Projects</h2>
+
+        <div class="line-break"></div>
+        <section id="work-history-wrapper" class="section--page">
+
+            <div class="card--work-header">
+                <img id="wisecare-logo" src="./assets/images/wiseLogo.png">
+            </div>
+            <div class="card--work-history">
+                <!-- <strong>WISECARE</strong> -->
+                <p>WiseCare is a healthcare platform, developed at codeseam, that provides an easier way to improve all
+                    daily routines at nursing homes.
+                    This platform concentrates all clinical and bureaucratic data. Some main functionalities can be
+                    highlighted, such as:</p>
+                <ul>
+                    <li>Save patient records and events;</li>
+                    <li>keep up to date with patient appointments and events;</li>
+                    <li>Manage individually patients medication;</li>
+                    <li>“Carry out” documents with the necessary information for emergency exits;</li>
                 </ul>
-                </section>  
+                <p>Wisecare is being used for almost three years and with almost zero downtime and they are completely
+                    relying on the app to manage all their daily needs.</p>
+                <p>In addition to being the front-end lead, I was mainly responsible for: </p>
+                <ul>
+                    <li>Client communication;</li>
+                    <li>Gathering requirements;</li>
+                    <li>Branding and application layout design;</li>
+                    <li>Architectural definition and requirements implementation;</li>
+                    <li>React components creation;</li>
+                </ul>
 
-            <section class="section--page">
-                <h2>Tech stack</h2>
-            
-                <div id="wrapper--techstack__items">
-                    <div class="card--techstack"><span>React tools:  React Js, Redux, Next JS, Material UI </span></div>
-                    <div class="card--techstack"><span>JavaScript, JQuery, CSS, HTML5, C# </span></div>
-                    <div class="card--techstack"><span>C#,Java </span></div>
-                    <div class="card--techstack"><span>Express, Node jS, Firebase,</span></div>
-                    <div class="card--techstack"><span>SQL, MongoDB </span></div>
-                    
-                </div>
+            </div>
+            <div class="line-break"></div>
 
-                <h2>Design tools</h2>
-                <div id="wrapper--techstack__items">
-                    <div class="card--techstack"><span> Adobe Photoshop </span></div>
-                    <div class="card--techstack"><span> Adobe Illustrator </span></div>
-                    <div class="card--techstack"><span> Adobe inDesign </span></div>
-                    <div class="card--techstack"><span> Adobe Lightroom </span></div>
-                    <div class="card--techstack"><span> GIMP </span></div>
-                    <div class="card--techstack"><span> Inkscape </span></div>
+            <div class="card--work-header">
+                <img id="ventasel-logo" src="./assets/images/ventasel_logo.png">
+            </div>
+            <div class="card--work-history">
+                <p>Ventasel, a family business targeting ventilation, air filtering, and dust collection systems. As an
+                    IT Admin was also responsible for:</p>
+                <ul>
+                    <li>Implementation of a network infrastructure and folder sharing;</li>
+                    <li>Boost productivity and technologies;</li>
+                    <li>Optimization of internal processes, documents, and templates;</li>
+                    <li>React js website design and implementation;</li>
+                    <li>Website/email hosting and administration using cPanel;</li>
+                    <li>Custom React dashboard management software;</li>
+                </ul>
+                <caption>Vts-Dashboard</caption>
+
+            </div>
+        </section>
+    </div>
+
+    <div id="container--archievements">
+        <section class="section--page">
+            <div class="archievements-section">
+                <h2>Achievements</h2>
 
 
-                </div>
-            </section>
-
-            <section id="work-history-wrapper" class="section--page">
-                <h2>Work & Projects</h2>
-            
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <img id="wisecare-logo" src="./assets/images/wiseLogo.png">
-                    <!-- <strong>WISECARE</strong> -->
-                    <p>2018</p>
-                    <p>Wisecare is a management platform for nursing routines and services for Private Social Solidarity Institutions, Home Assisted Services ??? and geriatric care units.</p>
-                    <p>It can be highlighted as main characteristics the simplicity and efficiency in the management of the daily routines, a practical agenda for patient appointments and events, as well as the guarantee of the model Confidentiality, Integrity, and Availability of the information. </p>
-                    <p>Save several patient records or events, efficient scheduling, the possibility to manage individually the medication of users, and “carry out” documents with the necessary information for emergency exits, among others, are some of the many functionalities of this application.</p>
-                    <ul>
-                        <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
-                        <li>Produced educational video content which resulted in 300k+ views on youtube</li>
-                        <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
-                    </ul>
-                </div>
-            
-            
-                <div class="card--work-history">
-                    
-                    <img id="ventasel-logo" src="./assets/images/ventasel_logo.png">
-                    <p>2020 - Present</p>
-                    <p>Produced content showcasing new tech, tutorials & interviews with top developers.</p>
-                    <ul>
-                        <li>166,000+ Youtube Subscribers</li>
-                        <li>30,000 course copies sold</li>
-                        <li>12+ Million views on Youtube</li>
-                        <li>Made regular contributions to Traversy Medias youtube channel (1.9m Subscribers)</li>
-                        <li>Tutorial videos included projects such as social networks, Ecommerce, real time video, stripe & paypal integrations and more </li>
-                    </ul>
-                </div>
-            
-                <div class="line-break"></div>
-            
-                <div class="card--work-history">
-                    <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
-                    <p>10/2017 - 10/2019</p>
-                    <p>Designed and developed a laboratory management system. My system
-                        provided an interface for lab technicians and customers to view and
-                        track data from samples tested in the lab.</p>
-                    <ul>
-                        <li>Designed prototype & pitched original idea for new lab management system (LIMS)</li>
-                        <li>Built entire code base and brought version 1 of LIMS system to market as a solo developer</li>
-                        <li>Onboarded and trained customers (Webinars & Conferences)</li>
-                        <li>Managed a small team of developers in expansion of LIMS system</li>
-                    </ul>
-                </div>
-            
-                <div class="line-break"></div>
-            
-                <div class="card--work-history">
-                    <strong>🚧 DIGITAL MARKETER | UNIFIVE DIGITAL</strong>
-                    <p>2014 - 2017</p>
-                    <p>Started a digital agency building websites and marketing for
-                        local businesses. Mostly Wordpress sites with small modifications to
-                        themes.</p>
-                    <ul>
-                        <li>Organized SEO & SEM campaigns on a local and global scale.</li>
-                        <li>Saved a customer $110k a year by reducing Adwords CPC cost with optimization</li>
-                        <li>70 + websites built with my small team of developers and freelancers</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="section--page">
-                <h2>Toturials</h2>
-            
                 <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span> Udemy - Build an app in less than 1 hour using React Native</a>
+                    <a> React Front To Back 2019 - Brad Traversy;</a>
                 </div>
-            
-                <div class="card--project">
-                    <a href="project1.html" ><span>🏆 </span> Udemy - Node.js API Masterclass With Express & MongoDB</a>
-                </div>
-            
-                <div class="card--project">
-                    <a href="project1.html" ><span>🏆 </span> Udemy - React Front To Back 2019</a>
-                </div>
-            
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span> Udemy - React Hooks Video Player (2019)</a>
-                </div>
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span> MERN-Stack-React-Redux</a>
-                </div>
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span>    https://www.youtube.com/c/TraversyMedia - learn a lot here!</a>
-                </div>
-               
-            </section>
-        </div>
 
-    </body>
+                <div class="card--project">
+                    <a> Mern Stack Front To Back - Brad Traversy;</a>
+                </div>
+
+                <div class="card--project">
+                    <a> Node.js API Masterclass With Express & MongoDB - Brad
+                        Traversy</a>
+                </div>
+
+                <div class="card--project">
+                    <a> React Hooks Video Player (2019) </a>
+                </div>
+
+                <div class="card--project">
+                    <a href="project1.html"> https://www.youtube.com/c/TraversyMedia - learn a lot here!</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
 </html>
+
+<script src="https://kit.fontawesome.com/256a8de243.js" crossorigin="anonymous"></script>
