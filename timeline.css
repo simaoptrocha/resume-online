@@ -51,7 +51,7 @@ li p.timeline-p{
 }
 .timeline-line {
   background: rgb(228, 228, 228);
-  width: 4px;
+  width: 0px;
   border-radius: 12px;
   position: relative;
   justify-self: end;
@@ -75,7 +75,7 @@ li p.timeline-p{
   background: #2e6061;
   position: absolute;
   height: 0;
-  width: 4px;
+  width: 0px;
   top: 0%;
   left: 0%;
   transition: 1.2s linear;

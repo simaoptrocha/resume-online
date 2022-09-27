@@ -224,7 +224,10 @@ ul>li>span {
 }
 
 #qualifications--list {
-    padding-left: 31%;
+width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -302,7 +305,7 @@ ul>li>span {
     transition: 0.3s;
 }
 
-.card--project a:hover {
+.card--project--link a:hover {
     color: rgb(30, 190, 214);
 
 }
@@ -312,6 +315,12 @@ ul>li>span {
     padding-bottom: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.about--me {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
 }
 
 @media(max-width:600px) {
@@ -408,7 +417,12 @@ ul>li>span {
         margin: 0;
     }
     #qualifications--list {
-        padding-left: 10%;
+        padding-left: 30%;
+    }
+
+    .about--me {
+        display: block;
+     
     }
 
     .card--work-history {
