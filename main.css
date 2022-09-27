@@ -25,6 +25,10 @@
     --bodyBgColor: var(--bodyBgColor-light)
 }
 
+html{
+scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Readex Pro';
     line-height: 1.5em;
@@ -246,11 +250,11 @@ width: 100%;
 }
 
 #wisecare-logo {
-    max-width: 50%;
+    max-width: 30%;
 }
 
 #ventasel-logo {
-    max-width: 40%;
+    max-width: 20%;
 }
 
 
@@ -329,6 +333,28 @@ width: 100%;
     flex-direction: row;
     gap: 1em;
 }
+ 
+
+  #back-to-top-wrapper {
+    background-color: var(--headerBgColor-light);
+    border-radius: 0.5rem;
+    max-width: 800px;
+    margin:  0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+  .back-to-top-link {
+
+  
+  }
 
 @media(max-width:600px) {
 
@@ -425,6 +451,14 @@ width: 100%;
     }
     #qualifications--list {
         margin-left: 35%;
+    }
+
+    #wisecare-logo {
+        max-width: 50%;
+    }
+    
+    #ventasel-logo {
+        max-width: 40%;
     }
 
     .about--me {
