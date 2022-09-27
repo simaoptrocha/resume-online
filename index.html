@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Simao Rocha</title>
+    <link rel="icon" href="./assets/images/online-resume.png">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://simaoptrocha.github.io/assets/images/avatar.JPEG">
     <link href="./main.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="./timeline.css" rel="stylesheet" type="text/css" media="screen"/>
     
@@ -28,10 +27,12 @@
         <section class="section--page">
 
             <div id="socials--list">
-                <a href="https://github.com/" target="_blank"><span><i class="fa-brands fa-github"></i></span>Github</a>
-                <a href="./assets/resume.pdf" target="_blank"><span><i class="fa-brands fa-linkedin"></i></span>Linked
-                    In</a>
-                <a href="./assets/resume.pdf" target="_blank"><span><i class="fa-solid fa-envelope"></i></span>Email</a>
+                <a href="mailto: simaoptrocha@gmail.com"><span><i class="fa-solid fa-envelope"></i></span>Email</a>
+                <a href="https://www.linkedin.com/in/simaoptrocha/" target="_blank" ><span><i class="fa-brands fa-linkedin"></i></span>LinkedIn</a>
+                <a href="./resume.pdf" download><span><i class="fa-solid fa-download"></i></span>Download</a>
+                
+        
+                
             </div>
         </section>
 
@@ -81,27 +82,32 @@
 
 
     <div id="container--skills">
-        <h2> Skills & Know-how</h2>
+        <h2> Skills & Know-How</h2>
         <div class="line-break"></div>
         <section class="section--page">
-            <ul id="qualifications--list">
-                <li><span><i class="fa-solid fa-rocket"></i></span> Logic Driven </li>
-                <li><span><i class="fa-solid fa-bullseye"></i></span> Critical Thinker </li>
-                <li><span><i class="fa-solid fa-lightbulb"></i></span> Higly Creative </li>
-                <li><span><i class="fa-solid fa-puzzle-piece"></i></span> Problem solver</li>
-                <li><span><i class="fa-solid fa-users"></i></span> Team worker </li>
-                <li><span><i class="fa-solid fa-heart"></i></span> Relationship Builder</li>
-                <br>
-                <li><span><i class="fa-solid fa-check"></i></span> React application development; </li>
-                <li><span><i class="fa-solid fa-check"></i></span> Building application interface using
+            <ul id="qualifications--list" class="fa-ul"  style="--fa-li-width: 3em;"> 
+                <li><span class="fa-li"><i class="fa-solid fa-rocket"></i></span> Logic Driven </li>
+                <li><span class="fa-li"><i class="fa-solid fa-bullseye"></i></span> Critical Thinker </li>
+                <li><span class="fa-li"><i class="fa-solid fa-lightbulb"></i></span> Higly Creative </li>
+                <li><span class="fa-li"><i class="fa-solid fa-puzzle-piece"></i></span> Problem solver</li>
+                <li><span class="fa-li"><i class="fa-solid fa-users"></i></span> Team worker </li>
+                <li><span class="fa-li"><i class="fa-solid fa-heart"></i></span> Relationship Builder</li>
+            
+            </ul>
+
+            <ul class="fa-ul"  style="--fa-li-width: 3em;">
+                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> React application development; </li>
+                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> Building application interface using
                     Material-UI/Bootstrap;</li>
-                <li><span><i class="fa-solid fa-check"></i></span> Development of a server using Node.js and
+                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> Development of a server using Node.js and
                     Express;</li>
-                <li><span><i class="fa-solid fa-check"></i></span> Full-stack development using the MERN stack;
+                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> Full-stack development using the MERN stack;
                 </li>
-                <li><span><i class="fa-solid fa-check"></i></span> Manipulating documents in MongoDB ;</li>
+                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> Manipulating documents in MongoDB ;</li>
 
             </ul>
+
+
         </section>
     </div>
 
@@ -114,12 +120,17 @@
 
             <ul class="timeline-ul">
                 <li class="timeline-li">
-                    <i class="timeline-point fa-solid fa-building-columns"></i>
-                    <span class="date">2012</span>
-                    <p class="timeline-p">Universidade do Minho</p>
-                    <span class="job-desription">Telecommunication and Informatics Engineer
-                    </span>
-                    <!-- <p class="timeline-p-description">Desription here</p> -->
+                    <i class="timeline-point fa-solid fa-briefcase"></i>
+                    <span class="date">2019</span>
+                    <p class="timeline-p">Ventasel</p>
+                    <span class="job-desription">IT Specialist</span>
+                </li>                
+              
+                <li class="timeline-li">
+                    <i class="timeline-point fa-solid fa-briefcase"></i>
+                    <span class="date">2018</span>
+                    <p class="timeline-p">Codeam Software</p>
+                    <span class="job-desription">Developer <br> Co-Founder</span>
                 </li>
                 <li class="timeline-li">
                     <i class="timeline-point fa-solid fa-building-columns"></i>
@@ -128,16 +139,12 @@
                     <span class="job-desription">Erasmus Programme Milan, Italy</span>
                 </li>
                 <li class="timeline-li">
-                    <i class="timeline-point fa-solid fa-briefcase"></i>
-                    <span class="date">2018</span>
-                    <p class="timeline-p">Codeam Software</p>
-                    <span class="job-desription">Developer <br> Co-Founder</span>
-                </li>
-                <li class="timeline-li">
-                    <i class="timeline-point fa-solid fa-briefcase"></i>
-                    <span class="date">2019</span>
-                    <p class="timeline-p">Ventasel</p>
-                    <span class="job-desription">IT Specialist</span>
+                    <i class="timeline-point fa-solid fa-building-columns"></i>
+                    <span class="date">2012</span>
+                    <p class="timeline-p">Universidade do Minho</p>
+                    <span class="job-desription">Telecommunication and Informatics Engineer
+                    </span>
+                    <!-- <p class="timeline-p-description">Desription here</p> -->
                 </li>
 
             </ul>
@@ -226,7 +233,7 @@
                 </div>
 
                 <div class="card--project">
-                    <a href="project1.html"> https://www.youtube.com/c/TraversyMedia - learn a lot here!</a>
+                    <a href="https://www.youtube.com/c/TraversyMedia"> https://www.youtube.com/c/TraversyMedia - learn a lot here!</a>
                 </div>
             </div>
         </section>

@@ -19,6 +19,7 @@ let observer = new IntersectionObserver((entries) => {
             showTime(e)
         })
         line.style.width = "100%"
+        line.style.height = "100%"
     }
   });},
   { threshold: 1, rootMargin: "0px 0px -50px 0px" });

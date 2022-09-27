@@ -224,7 +224,7 @@ ul>li>span {
 }
 
 #qualifications--list {
-    list-style: none;
+    padding-left: 31%;
 }
 
 
@@ -243,13 +243,11 @@ ul>li>span {
 }
 
 #wisecare-logo {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 50%;
 }
 
 #ventasel-logo {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 40%;
 }
 
 
@@ -271,7 +269,7 @@ ul>li>span {
     border-color: none;
 }
 
-.card--techstack :hover {}
+
 
 .card--work-history {
     /* border-left: 1px solid var(--mainBorderColor); */
@@ -335,10 +333,6 @@ ul>li>span {
         height: 200px;
     }
 
-    #wisecare-logo {
-        max-width: 100px;
-        height: 100px;
-    }
 
     #container--header {
         background-color: var(--headerBgColor-light);
@@ -354,7 +348,7 @@ ul>li>span {
         border-radius: 0rem 0rem 0.5rem 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
     }
 
     #container--tech-stack {
@@ -362,7 +356,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
         margin-top: 1rem;
 
     }
@@ -372,7 +366,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
         margin-top: 1rem;
 
     }
@@ -382,7 +376,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
         margin-top: 1rem;
 
     }
@@ -392,7 +386,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
         margin-top: 1rem;
 
     }
@@ -402,7 +396,7 @@ ul>li>span {
         border-radius: 0.5rem;
         max-width: 800px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem;
         margin-top: 1rem;
 
     }
@@ -414,8 +408,7 @@ ul>li>span {
         margin: 0;
     }
     #qualifications--list {
-        list-style: none;
-        padding: 0;
+        padding-left: 10%;
     }
 
     .card--work-history {
