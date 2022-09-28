@@ -82,8 +82,8 @@ ul>li>span {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 3rem;
+    padding-bottom: 2rem;
+
 
 }
 
@@ -162,6 +162,13 @@ ul>li>span {
 
 }
 
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .section--page {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -175,7 +182,6 @@ ul>li>span {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    margin-right: 3rem;
 
 }
 
