@@ -151,7 +151,7 @@ ul>li>span {
 
 #container--archievements {
     background-color: var(--mainBgColor);
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
     max-width: 800px;
     margin: 0 auto;
     padding-left: 5rem;
@@ -337,14 +337,11 @@ width: 100%;
 
   #back-to-top-wrapper {
     background-color: var(--headerBgColor-light);
-    border-radius: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
     max-width: 800px;
     margin:  0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    margin-top: 1rem;
+    padding: 1em;
+    /* margin-top: 1rem; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -435,7 +432,7 @@ width: 100%;
 
     #container--archievements {
         background-color: var(--mainBgColor);
-        border-radius: 0.5rem;
+        border-radius: 0.5rem 0.5rem 0 0;
         max-width: 800px;
         margin: 0 auto;
         padding: 2rem;
@@ -450,7 +447,7 @@ width: 100%;
         margin: 0;
     }
     #qualifications--list {
-        margin-left: 35%;
+        padding: 1em;
     }
 
     #wisecare-logo {
